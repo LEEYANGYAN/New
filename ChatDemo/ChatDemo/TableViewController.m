@@ -72,6 +72,7 @@ static NSString *cellID = @"cellID";
 - (void)createView {
     
     ChatView *chat = [[ChatView alloc] initWithFrame:CGRectMake(0, [UIScreen mainScreen].bounds.size.height - 49, [UIScreen mainScreen].bounds.size.width, 49)];
+    chat.backgroundColor = [UIColor redColor];
     [self.tableView.superview addSubview:chat];
     _chat = chat;
     
