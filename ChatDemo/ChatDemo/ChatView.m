@@ -50,6 +50,7 @@
     lable.backgroundColor = [UIColor redColor];
     [self addSubview:lable];
     _chatLable = lable;
+    //jdfkjasf
     
     UILabel *countLable = [[UILabel alloc] initWithFrame:CGRectMake(5, 4, 160, 40)];
     countLable.text = @"已经选择了0件商品";
